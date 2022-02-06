@@ -15,6 +15,9 @@ public class HomeControllers {
 @RequestMapping("/affichage")
    public String affichage()
 	   {
+	
+	
+System.out.println("Methode 1");
 		return "home/affichage" ;
 	   }
 
@@ -22,7 +25,10 @@ public class HomeControllers {
 @RequestMapping("/information")
 public String information()
 	   {
+	
+System.out.println("Methode 2");
 		return "home/information" ;
 	   }
 
 }
+
